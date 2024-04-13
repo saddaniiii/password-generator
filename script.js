@@ -25,7 +25,6 @@ function generarContraseña() {
 
 function copiaralPortapapeles(text) {
     const copy = document.getElementById('copy');
-    let messageCopy = document.getElementById('message-copy');
 
     copy.addEventListener('click', function() {
         const input = document.createElement('input');
@@ -34,5 +33,6 @@ function copiaralPortapapeles(text) {
         input.select();
         document.execCommand('copy');
         document.body.removeChild(input);
+        alert('La contraseña se ha copiado en tu portapapeles');
     })
 }
