@@ -41,3 +41,33 @@ button a:hover {
     text-decoration: underline;
 }
 
+section {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.button {
+    width: 100%;
+    background-color: #0172ac;
+    color: #fff;
+    font-size: 1rem;
+    border-color: transparent;
+    border-radius: 5px;
+    letter-spacing: .5px;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
